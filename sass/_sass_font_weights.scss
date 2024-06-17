@@ -1,0 +1,24 @@
+.fw-lightest {
+  font-weight: 100;
+}
+
+.fw-light-semi {
+  font-weight: 200;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-bold {
+  // This attribute is already in Bootstrap 
+  // Remove this class if you already have Bootstrap in you project
+  font-weight: 700
+}
+
+.fw-bold-semi {
+  font-weight: 600;
+}
+.fw-bolder {
+  font-weight: 800;
+}

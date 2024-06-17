@@ -1,0 +1,16 @@
+@import 'sass_text_changes';
+@import 'sass_theme_color';
+@import 'sass_display';
+@import 'sass_navbar';
+@import 'sass_navigation_bar';
+@import 'sass_text_changes';
+
+@mixin page_mode($mode) {
+  background-color: $mode;
+}
+.dark-mode {
+  @include page-mode(#121212);
+}
+.light-mode {
+  @include page-mode(#FFFFFF);
+}

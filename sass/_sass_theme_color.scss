@@ -1,0 +1,23 @@
+@import 'sass_variables';
+$dark: #5b5b61;
+$dracula: #282a36;
+$light: #ffffff;
+$darkest: #000000;
+$light-grey: #d3d3d3;
+
+[data-theme="dark"] {
+  background-color: $dark;
+  color: $light;
+}
+[data-theme="light"] {
+  background-color: $light;
+  color: $darkest;
+}
+[data-theme="dracula"] {
+  background-color: $dracula;
+  color: $light-grey;
+}
+[data-theme="darkest"] {
+  background-color: $darkest;
+  color: $light;
+}

@@ -1,0 +1,139 @@
+.[data-theme="dark"] {
+    background-color: #5b5b61;
+    color: #fff;
+}
+.[data-theme="light"] {
+    background-color: #fff;
+    color: #000;
+}
+.[data-theme="dracula"] {
+    background-color: #282a36;
+    color: #d3d3d3;
+}
+.[data-theme="darkest"] {
+    background-color: #000;
+    color: #fff;
+}
+.container .flex {
+    display: flex;
+}
+.container .center {
+    display: center;
+}
+.red {
+    background-color: #cc4e52;
+    border-width: 1em;
+    border-style: solid;
+    border-color: #cc2929;
+    border-radius: 16px;
+}
+div.[data-call="red"] {
+    background-color: #cc4e52;
+    border-width: 1em;
+    border-style: solid;
+    border-color: #cc2929;
+    border-radius: 16px;
+}
+.fs-italic {
+    font-style: italic;
+}
+.fs-oblique {
+    font-style: oblique;
+}
+.fw-lightest {
+    font-weight: 100;
+}
+.fw-light-semi {
+    font-weight: 200;
+}
+.fw-light {
+    font-weight: 300;
+}
+.fw-bold {
+    font-weight: 700;
+}
+.fw-bold-semi {
+    font-weight: 600;
+}
+.fw-bolder {
+    font-weight: 800;
+}
+.td-underline {
+    text-decoration: underline;
+}
+.td-overline {
+    text-decoration: overline;
+}
+.td-strike {
+    text-decoration: line-through;
+}
+.td-blink {
+    text-decoration: blink;
+}
+.td-none {
+    text-decoration: none;
+}
+.text-black {
+    color: #000;
+}
+.text-gray {
+    color: #808080;
+}
+.text-grey {
+    color: #808080;
+}
+.text-white {
+    color: #fff;
+}
+.text-red {
+    color: #f00;
+}
+.text-blue {
+    color: #00f;
+}
+.text-yellow {
+    color: #ff0;
+}
+.text-green {
+    color: #228b22;
+}
+.bg-black {
+    color: #000;
+}
+.bg-gray {
+    color: #808080;
+}
+.bg-grey {
+    color: #808080;
+}
+.bg-white {
+    color: #fff;
+}
+.bg-red {
+    color: #f00;
+}
+.bg-blue {
+    color: #00f;
+}
+.bg-yellow {
+    color: #ff0;
+}
+.bg-green {
+    color: #228b22;
+}
+.dark-mode {
+    background-color: #121212;
+}
+.light-mode {
+    background-color: #fff;
+}
+.navbar .brand img {
+    text-decoration: none;
+}
+.navbar ul.navlist li.nav-item .nav-link {
+    text-decoration: none;
+}
+.navbar ul.navlist li.nav-item .nav-link.active:hover {
+    border: 10px #5e5e5e;
+    font-weight: bold;
+}

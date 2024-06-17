@@ -1,0 +1,14 @@
+@import 'sass_variables';
+[data-align="left"] {
+    float: left;
+    padding: 10px;
+}
+[data-align="center"] {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+[data-align="right"] {
+    float: right;
+    padding: 10px;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "PackExpand",
+  "description": "An expansion for you HTML!",
+  "version": "0.0.1",
+  "config": {
+    "version_short": "0.0"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "javascript",
+    "front-end",
+    "web"
+  ],
+  "homepage": "https://github.com/MicroRay620/Panckage",
+  "author": "Ruby Rose",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroRay620/PackExpand.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MicroRay620/PackExpand/issues.git"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
