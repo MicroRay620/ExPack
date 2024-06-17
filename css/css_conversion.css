@@ -133,6 +133,10 @@ div.[data-call="red"] {
 .navbar ul.navlist li.nav-item .nav-link {
     text-decoration: none;
 }
+.navbar ul.navlist li.nav-item .nav-link:hover {
+    border: 10px #5e5e5e;
+    font-weight: bold;
+}
 .navbar ul.navlist li.nav-item .nav-link.active:hover {
     border: 10px #5e5e5e;
     font-weight: bold;
