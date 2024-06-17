@@ -9,8 +9,6 @@
   }
 }
 
-.callout or [data-call=""] {
-  .red or [data-call="red"] {
-    @include callout-color(#cc4e52, #cc2929);
-  }
+.red or [data-call="red"] {
+  @include callout-color(#cc4e52, #cc2929);
 }
