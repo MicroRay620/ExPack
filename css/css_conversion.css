@@ -1,16 +1,16 @@
-.[data-theme="dark"] {
+.theme[data-theme="dark"] {
     background-color: #5b5b61;
     color: #fff;
 }
-.[data-theme="light"] {
+.theme[data-theme="light"] {
     background-color: #fff;
     color: #000;
 }
-.[data-theme="dracula"] {
+.theme[data-theme="dracula"] {
     background-color: #282a36;
     color: #d3d3d3;
 }
-.[data-theme="darkest"] {
+.theme[data-theme="darkest"] {
     background-color: #000;
     color: #fff;
 }
@@ -18,20 +18,49 @@
     display: flex;
 }
 .container .center {
-    display: center;
+    margin: auto;
+    width: 50%;
 }
-.red {
+.container .right {
+    float: right;
+}
+.container .left {
+    float: left;
+}
+.text-align[data-text-align="left"] {
+    text-align: left;
+}
+.text-align[data-text-align="center"] {
+    text-align: center;
+}
+.text-align[data-text-align="right"] {
+    text-align: right;
+}
+.text-align[data-text-align="justify"] {
+    text-align: justify;
+}
+.callout[data-call="red"] {
+    text-align: center;
     background-color: #cc4e52;
     border-width: 1em;
     border-style: solid;
     border-color: #cc2929;
     border-radius: 16px;
 }
-div.[data-call="red"] {
-    background-color: #cc4e52;
+.callout[data-call="blue"] {
+    text-align: center;
+    background-color: #4e85cc;
     border-width: 1em;
     border-style: solid;
-    border-color: #cc2929;
+    border-color: #296acc;
+    border-radius: 16px;
+}
+.callout[data-call="green"] {
+    text-align: center;
+    background-color: #4ecc4e;
+    border-width: 1em;
+    border-style: solid;
+    border-color: #37cc29;
     border-radius: 16px;
 }
 .fs-italic {
@@ -132,10 +161,6 @@ div.[data-call="red"] {
 }
 .navbar ul.navlist li.nav-item .nav-link {
     text-decoration: none;
-}
-.navbar ul.navlist li.nav-item .nav-link:hover {
-    border: 10px #5e5e5e;
-    font-weight: bold;
 }
 .navbar ul.navlist li.nav-item .nav-link.active:hover {
     border: 10px #5e5e5e;

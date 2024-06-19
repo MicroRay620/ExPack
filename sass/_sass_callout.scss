@@ -1,14 +1,24 @@
 @import 'sass_variables';
 @mixin callout-color($background, $color) {
   background-color: $background;
+  text-align: center;
   border: {
     width: 1em;
     style: solid;
     color: $color;
-    border-radius: 16px;
+    radius: 16px;
   }
 }
 
-.red or [data-call="red"] {
-  @include callout-color(#cc4e52, #cc2929);
+.callout {
+  [data-call="red"] {
+    @include callout-color(#cc4e52, #cc2929);
+  }
+  [data-call="blue"] {
+    @include callout-color(#4e85cc, #296acc )
+  }
+  [data-call="green"] {
+    @include callout-color(#4ecc4e, #37cc29)
+  }
 }
+

@@ -3,7 +3,14 @@
     .flex {
         display: flex;
     }
-    .center {
-        display: center;
+   .center {
+        margin: auto;
+        width: 50%;
+    }
+    .right {
+        float: right;
+    }
+    .left {
+        float: left;
     }
 }
