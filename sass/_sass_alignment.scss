@@ -10,3 +10,11 @@
 [data-text-align="justify"] {
     text-align: justify;
 }
+.alignment {
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+}
