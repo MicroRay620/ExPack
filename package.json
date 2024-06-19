@@ -1,5 +1,5 @@
 {
-  "name": "PackExpand",
+  "name": "ExPack",
   "description": "An expansion for you HTML!",
   "version": "0.0.1",
   "config": {
@@ -12,17 +12,18 @@
     "front-end",
     "web"
   ],
-  "homepage": "https://github.com/MicroRay620/Panckage",
+  "homepage": "https://github.com/MicroRay620/ExPack",
   "author": "Ruby Rose",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MicroRay620/PackExpand.git"
+    "url": "git+https://github.com/MicroRay620/ExPack.git"
   },
   "bugs": {
-    "url": "https://github.com/MicroRay620/PackExpand/issues.git"
+    "url": "https://github.com/MicroRay620/ExPack/issues.git"
   },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "scss": "^0.2.4"
   }
 }
