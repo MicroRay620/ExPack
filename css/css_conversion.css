@@ -39,6 +39,12 @@
 .text-align[data-text-align="justify"] {
     text-align: justify;
 }
+.alignment .left {
+    float: left;
+}
+.alignment .right {
+    float: right;
+}
 .callout[data-call="red"] {
     text-align: center;
     background-color: #cc4e52;
@@ -159,10 +165,23 @@
 .navbar .brand img {
     text-decoration: none;
 }
+.navbar ul.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar ul.navlist li.nav-item {
+    float: left;
+}
 .navbar ul.navlist li.nav-item .nav-link {
     text-decoration: none;
 }
 .navbar ul.navlist li.nav-item .nav-link.active:hover {
+    border: 10px #5e5e5e;
+    font-weight: bold;
+}
+.navbar ul.navlist li.nav-item .nav-link:hover {
     border: 10px #5e5e5e;
     font-weight: bold;
 }

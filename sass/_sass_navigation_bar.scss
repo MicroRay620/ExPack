@@ -5,15 +5,24 @@
     }
   }
   ul.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     li.nav-item {
-        .nav-link {
-          text-decoration: none;
-          &.active {
-            &:hover {
-              border: 10px #5e5e5e;
-              font-weight: bold;
-            }
+      float: left;
+      .nav-link {
+        text-decoration: none;
+        &.active {
+          &:hover {
+            border: 10px #5e5e5e;
+            font-weight: bold;
           }
+        }
+        &:hover {
+          border: 10px #5e5e5e;
+          font-weight: bold;
+        }
       }
     }
   }
